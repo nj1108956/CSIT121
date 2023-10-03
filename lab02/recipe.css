@@ -1,0 +1,55 @@
+body     { background-color: #FCEBB6; 
+           color: #221811;
+           font-family: Verdana, Arial,sans-serif; 
+		   }
+		   
+h1		 {font-size:3em;
+			text-align: center;	
+			padding-bottom: .25em;
+			text-transform: uppercase;
+			}
+		   
+		              
+header  { background-color: #D2B48C;
+	     
+          
+			}
+				 
+         
+h2		 {background-color: #D2B48C;
+		  text-align: center;	
+		  padding-bottom: .25em; 
+		  font-size: 1.2em;}
+
+
+p	{margin-top: 2px;
+	margin-bottom: 2px;
+		}
+
+li { color: #66004D;
+}
+
+a {
+	
+  color: #FF3300;
+}
+  
+main     {		 
+            background-color: #D2B48C;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	  
+
