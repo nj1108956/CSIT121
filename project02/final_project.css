@@ -1,0 +1,189 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+
+header, main, footer {
+    margin: 20px auto; 
+    max-width: 800px; 
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block; 
+    margin-right: 20px;
+}
+
+h1 {
+    text-align: center; 
+}
+
+#content {
+    float: left;
+    width: 70%;
+}
+
+aside {
+    height:400px;
+    width: 400px;
+    
+}
+
+#warriors-image {
+    width: 400px;
+    height: 400px;
+    background-image: url('Finalimages/warriors.jpg');
+    background-size: cover;
+    background-position: center bottom; 
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+
+#NBA-image,
+#stat-image {
+    display: block;
+    margin: 20px auto; 
+    width: 100%;
+    height: auto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+main {  background-color:#87CEFA;
+         margin-right: auto;
+          margin-left: auto;
+          min-width:700px;
+          max-width:1024px;
+           width: 80%; 
+          box-shadow:20px 20px 50px 15px #E9967A;
+          border-radius: 15px;
+    flex: 1; 
+
+}
+footer {
+    text-align: center; 
+    margin-top: auto; 
+}
+
+#contact-form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+
+table {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    transition: background-color 0.3s;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+nav ul li a,
+ul.external-links li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover,
+ul.external-links li a:hover {
+    color: #8A2BE2; 
+}
+
+ul.external-links {
+    list-style: none;
+    padding: 0;
+}
+
+ul.external-links li {
+    margin-bottom: 10px;
+}
+
+footer   { background-color: #87CEFA;
+           font-size: .80em;
+           font-style: italic;
+          text-align: center;
+          border: 1px solid #000033;
+            border-radius: 15px;}       
+h1       { background-color: #87CEFA;         
+           line-height: 200%;
+            text-align: center;  
+            border-style:none;
+             border-radius: 15px;
+             padding-bottom:0px;}
+main     { padding-left: .65em; padding-right: .65em; padding-bottom:.65em ;    
+            }
+
+body     { background-color:    #D3D3D3; 
+           color: #221811;
+            }
+
+@media only screen and (max-width: 600px) {
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    aside {
+        float: none;
+        width: 100%;
+    }
+}
